@@ -1,3 +1,9 @@
-//your JS code here. If required.
+const panels = document.querySelectorAll(".panel");
 
+panels.forEach(panel => {
 
+  panel.addEventListener("click", () => {
+    panel.classList.toggle("active");
+  });
+
+});
